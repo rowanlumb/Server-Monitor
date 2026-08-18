@@ -46,7 +46,7 @@ scene.add(new THREE.GridHelper(100, 20));
 // STL
 const loader = new STLLoader();
 
-loader.load("models/Solar_Prang_Assembly.stl", geometry => {
+loader.load("models/server_monitor_assembly.stl", geometry => {
 
     geometry.center();
 

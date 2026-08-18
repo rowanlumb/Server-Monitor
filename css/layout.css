@@ -6,19 +6,27 @@
 }
 
 .navbar {
-
     padding: 22px 0;
-
 }
 
 .navbar .container {
-
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
+}
 
+.navbar {
+    background: #b84d20;
+    color: #fff;
+}
+
+.navbar .logo,
+.navbar nav a {
+    color: #fff;
+}
+
+.navbar nav a:hover {
+    color: rgba(255, 255, 255, .75);
 }
 
 nav {
@@ -29,32 +37,7 @@ nav {
 
 }
 
-.hero {
 
-    padding: 7rem 0;
-    text-align: center;
-
-}
-
-.hero h2 {
-
-    font-size: 3rem;
-    margin-bottom: 1rem;
-
-}
-
-.hero p {
-
-    max-width: 700px;
-
-    margin: auto auto 2rem;
-
-}
-
-.hero ul {
-    margin: auto auto 2rem;
-    max-width: 500px;
-}
 
 .projects {
 
